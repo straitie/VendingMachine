@@ -1,7 +1,9 @@
 # VendingMachine
 
 ## Preview
-You can see what the output should look like by downloading the .jar file and running it on your machine.
+You can see what the output should look like by downloading [VendingMachine.jar](the .jar file) and running it on your machine.
+
+
 Rubric can be found at [https://docs.google.com/spreadsheets/d/1SlEHHfy72EmRC_vLvn8VpBoPnC4vDDY5e_LBxEBDhxA/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1SlEHHfy72EmRC_vLvn8VpBoPnC4vDDY5e_LBxEBDhxA/edit?usp=sharing)
 
 ## To-do list
