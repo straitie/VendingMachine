@@ -14,7 +14,7 @@ public class Vendor
     private int stock;
     private int deposit;
     private int change;
-    private static double totalSales=0;
+    //make a private static double variable called totalSales that has an initial value of 0
 
 
     /**
