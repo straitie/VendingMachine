@@ -15,6 +15,7 @@ Rubric can be found at [https://docs.google.com/spreadsheets/d/1SlEHHfy72EmRC_vL
 6. Complete the makeSale method
 7. Complete the getChangeString method
 8. Complete the getTotalSales static method
+9. Change the password to the prefix of your email (the part before the @).
 9. Submit Snackbar.java
 10. Submit Vendor.java
 11. Submit link to GitHub repository
