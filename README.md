@@ -18,3 +18,4 @@ Rubric can be found at [https://docs.google.com/spreadsheets/d/1SlEHHfy72EmRC_vL
 9. Submit Snackbar.java
 10. Submit Vendor.java
 11. Submit link to GitHub repository
+12. Follows Java coding convenstion [https://google.github.io/styleguide/javaguide.html](https://google.github.io/styleguide/javaguide.html)
