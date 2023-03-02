@@ -80,11 +80,14 @@ public class Vendor
     {
         if ((stock > 0) && (deposit >= price)){
             stock--;
+            totalSales += (price/100.0);
             change = deposit - price;
+            deposit = 0;
             return true;
         }
         else {
             change = deposit;
+            deposit = 0;
             return false;
         }
     }
@@ -103,13 +106,13 @@ public class Vendor
 
     public String getChangeString()
     {
-        //From Ethan: create a get method that returns the amount and type of coins that should be returned by the machine
-        /*
-        note that the coin class has a .getQuarters(), a .getDimes() etc etc (use the coin class!)
-        */
-        
+        Coins coinFinder = new Coins(change);
 
         String changeString="";
+        changeString += coinFinder.getQuarters() + " quarter(s), ";
+        changeString += coinFinder.getDimes() + " dime(s), ";
+        changeString += coinFinder.getNickles() + " nickel(s), and ";
+        changeString += coinFinder.getPennies() + " penny(ies).";
 
         return changeString;
     }
